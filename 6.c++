@@ -58,8 +58,8 @@ void KMPSearch(const string &text, const string &pat) {
     if (!foundAny) cout << "Pattern not found in the text.\n";
 }
 int main() {
-    string text  = "CATSABCBCABCDOGSABCBCABC";
-    string pattern = "ABCBCABC";
+    string text  = "racecareracecar";
+    string pattern = "racecar";
     KMPSearch(text, pattern);
     return 0;
 }
