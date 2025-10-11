@@ -59,8 +59,8 @@ def kmp_search(text, pattern):
 
     return comparisons, end_time - start_time
 # Input
-text = "CATSABCBCABCDOGSABCBCABC"
-pattern = "ABCBCABC"
+text = "AbAbABa"
+pattern = "AbA"
 
 naive_ops, naive_time = naive_search(text, pattern)
 kmp_ops, kmp_time = kmp_search(text, pattern)
