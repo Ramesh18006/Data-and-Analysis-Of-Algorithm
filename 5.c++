@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 int main() {
-    string pattern = "ABCBCABC";
+    string pattern = "aaaaab";
     int n = pattern.length();
     int lps[100];   
     lps[0] = 0;     
